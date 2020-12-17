@@ -1,0 +1,1159 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amaranth', sans-serif;
+}
+
+
+/* ======Responsive Kit========= */
+
+@media(max-width:991px) {
+    .centerAln {
+        text-align: center;
+    }
+    .footerLogoImg {
+        height: 200px !important;
+        width: 450px !important;
+    }
+    .learnMoreBox h1 {
+        font-size: 4rem;
+    }
+    .max-height {
+        height: calc(40vh) !important;
+    }
+    .banner a {
+        font-size: 2.3rem;
+    }
+    .bigFont h1 {
+        font-size: 4rem;
+    }
+    .bigFont h3 {
+        font-size: 4rem;
+    }
+    .bigFont p {
+        font-size: 2.2rem;
+    }
+    .bigFont {
+        font-size: 4rem;
+    }
+    .learnMoreBtn {
+        font-size: 2rem;
+    }
+    .learnMoreBox2 h1 {
+        font-size: 4rem;
+    }
+    .LmB2SmaalBox h3 {
+        font-size: 3rem;
+    }
+    .LmB2SmaalBox p {
+        font-size: 2.2rem;
+    }
+    .LmBox2Icon {
+        font-size: 7rem;
+    }
+    .marginDiv {
+        margin-top: 70px !important;
+    }
+    .marginDiv h3 {
+        font-size: 4rem;
+    }
+    .marginDiv p {
+        font-size: 2.2rem;
+    }
+    .happierBox2 {
+        opacity: 0;
+        -moz-transform: translate3d(0px, 0px, 0px);
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -o-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        transform: translate3d(0px, 120px, 0px) !important;
+    }
+    .happierBox2.in-view {
+        -moz-transition: all 2s linear;
+        -webkit-transition: all 2s linear;
+        -o-transition: all 2s linear;
+        transition: all 2s linear;
+        -moz-transform: translate3d(-100px, 0px, 0px);
+        -webkit-transform: translate3d(-100px, 0px, 0px);
+        -o-transform: translate(-100px, 0px);
+        -ms-transform: translate(-100px, 0px);
+        transform: translate3d(0px, 0px, 0px) !important;
+        opacity: 1;
+    }
+    .QuestionBtn {
+        font-size: 2rem;
+        border-radius: 30px !important;
+    }
+    .QuestionContainer h1 {
+        font-size: 4rem;
+    }
+    .SubscribeContainer h1 {
+        font-size: 4rem;
+    }
+    .SubcriptionInputArea {
+        width: 90% !important;
+    }
+    .SubscriptionInputBox {
+        border-width: 2px;
+        font-size: 2.3rem
+    }
+    .subcribeBtn {
+        border-width: 2px !important;
+        font-size: 2rem;
+    }
+    input-group-append {
+        border: none !important;
+    }
+    .footerContainer {
+        font-size: 2.9rem;
+    }
+    .footerContainer h4 {
+        font-size: 5rem;
+    }
+    .footerContainer h5:nth-child(1) {
+        font-size: 3rem;
+    }
+    .footerContainer h5:nth-child(2) {
+        font-size: 3rem;
+    }
+    .footerContainer h5:nth-child(3) {
+        font-size: 2rem;
+    }
+    .footerContainer input {
+        font-size: 3rem !important;
+    }
+    .FSocialIcon {
+        font-size: 4rem !important;
+    }
+    .calbackBtn {
+        font-size: 2.9rem;
+    }
+    /* --About Page-- */
+    .WorkTopContainer h1 {
+        font-size: 4rem;
+    }
+    .WorkTopContainer p {
+        font-size: 2.3rem;
+        padding: 10px;
+    }
+    .aboutTopImg {
+        width: 550px !important;
+        height: 550px !important;
+    }
+    .aboutMean h1 {
+        font-size: 3rem;
+    }
+    .abtTextType1 h4 {
+        font-size: 4rem;
+    }
+    .abtTextType1 p {
+        font-size: 2.5rem;
+    }
+    /* --About Page-- */
+    /* --How It Work-- */
+    .WsectionHeaderType2 h3 {
+        font-size: 4rem;
+    }
+    .WsectionHeaderType1 h3 {
+        font-size: 4rem;
+    }
+    .WsectionHeaderType2 p {
+        font-size: 2.5rem;
+    }
+    .WsectionHeaderType1 p {
+        font-size: 2.5rem;
+    }
+    .WImgType2Div {
+        transform: translate(11%, 20%) !important;
+    }
+    .WImgType1Div {
+        transform: translate(4%, 10%) !important;
+    }
+    .WsectionHeaderType2 {
+        transform: translate(1%, 25%) !important;
+    }
+    .WsectionHeaderType1 {
+        transform: translate(1%, 25%) !important;
+    }
+    /* --How It Work-- */
+    /* --Services-- */
+    .InfoBoxMContainer {
+        display: block !important;
+    }
+    .InfoBoxContainer {
+        display: none;
+    }
+    /* --Services-- */
+    /* --Contact US-- */
+    .formDIv input {
+        font-size: 3rem;
+    }
+    .formDIv {
+        width: 90% !important;
+    }
+    .query {
+        font-size: 3rem;
+    }
+    .QuestionBtn {
+        font-size: 3.4rem;
+        border-radius: 100px !important;
+        padding: 2rem;
+    }
+    .callingImg {
+        height: 400px !important;
+        width: 480px !important;
+    }
+    .mailBoxImg {
+        height: 400px !important;
+        width: 400px !important;
+    }
+    .locationImg {
+        height: 400px !important;
+        width: 500px !important;
+    }
+    .form-group input {
+        font-size: 3rem;
+    }
+    .form-group label {
+        font-size: 3rem;
+    }
+    .form-group select {
+        font-size: 3rem;
+    }
+    .BookMeetTopDiv {
+        text-align: center !important
+    }
+    .meetingTopImg {
+        height: 754px !important;
+        width: 838px !important;
+    }
+    .navbar-collapse a {
+        font-size: 3rem;
+    }
+    /* --Contact US-- */
+}
+
+
+/* ======Responsive Kit========= */
+
+.nav-img {
+    height: 100px;
+    width: 240px;
+}
+
+.nav-link {
+    color: #fc8621 !important;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: #120078 !important;
+}
+
+.nav_btn {
+    border: 1.6px solid #120078;
+    border: 0.1rem solid #120078;
+    color: #120078;
+    border-radius: 0.25rem;
+    padding: 6.4px 9.6px;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+}
+
+.nav_btn:hover {
+    background: #fc8621;
+    border-color: #120078;
+    color: #fff;
+}
+
+.colorOrange {
+    color: #fc8621 !important;
+}
+
+.colorBlue {
+    color: #120078;
+}
+
+
+/* --Banner-- */
+
+.max-height {
+    height: calc(100vh);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.35) 100%, rgba(0, 0, 0, 0.25) 100%), url(../images/topBg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner-link {
+    font-size: 24px;
+    font-size: 1.5rem;
+    color: #000;
+    border: 3.2px solid #000;
+    border: 0.2rem solid #000;
+}
+
+.banner-link:hover {
+    background: #000;
+    color: #da1046;
+}
+
+.bannerSec {
+    background-color: #d2fdff !important;
+}
+
+.banner {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 90%, 0 100%);
+    overflow: hidden;
+}
+
+
+/* --end Banner-- */
+
+
+/* --contact btn-- */
+
+.contact {
+    min-height: 160px;
+    min-height: 10rem;
+    background: rgba(251, 85, 8, 0.603);
+    top: 100px;
+    right: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 0;
+    overflow: hidden;
+}
+
+.padingRyt {
+    padding-right: 60px !important;
+}
+
+.show_contact {
+    width: 288px;
+    width: 18rem;
+    padding: 32px 24px;
+    padding: 2rem 1.5rem;
+    -webkit-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+}
+
+.contact-item {
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+}
+
+.contact-item-detail {
+    font-size: 12.8px;
+    font-size: 0.8rem;
+}
+
+
+/* --contact-- */
+
+
+/* --Learn More section-- */
+
+.learnMore_sec {
+    background-image: linear-gradient(to top, #f0883336 0%, #d1fdff 100%);
+}
+
+.title-underline {
+    width: 550px;
+    height: 5px;
+    background-color: rgba(241, 117, 117, 0.657);
+    margin: 0 auto;
+}
+
+.title-underlineWhyUs {
+    width: 420px;
+    height: 5px;
+    background-color: rgba(241, 117, 117, 0.657);
+    margin: 0 auto;
+}
+
+.learnMoreContainer {
+    padding: 50px 20px;
+}
+
+.learnMoreBox {
+    border: 2px solid red;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.44);
+    border-radius: 20px;
+    padding: 20px;
+    background: #74ebd5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #74ebd5, #acb6e5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.learnMoreImg {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.44);
+    border-radius: 3rem;
+    margin-top: 15px;
+}
+
+.learnMoreBtn {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.54);
+}
+
+
+/* Box Number 2 */
+
+.learnMoreBox2 {
+    margin-top: 100px !important;
+}
+
+.LmB2SmaalBox {
+    margin: 70px 10px 10px 10px;
+    border: 1px solid rgb(207, 202, 202);
+    padding-top: 10px;
+    border-radius: 1.5rem;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.44);
+    -moz-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    -moz-transform: translate3d(-100px, 0px, 0px);
+    -webkit-transform: translate3d(-100px, 0px, 0px);
+    -o-transform: translate(-100px, 0px);
+    -ms-transform: translate(-100px, 0px);
+    transform: translate3d(-100px, 0px, 0px);
+    opacity: 0;
+}
+
+.LmB2SmaalBox.in-view {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.LmB2SmaalBox:hover {
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.80);
+}
+
+.LmBox2Icon {
+    padding: 10px;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+
+/* -Happier div- */
+
+.happierContainer {
+    margin-top: 80px;
+}
+
+.happierRow {
+    margin-bottom: 150px;
+    margin-top: 70px;
+}
+
+.number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    background-color: #2e3787;
+    color: white;
+    border-radius: 100%;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.20);
+}
+
+.marginDiv {
+    margin-top: 60%;
+}
+
+.happierBox1 {
+    border: 2px solid white;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.40);
+    border-radius: 2rem;
+    margin: 10px;
+    padding: 30px;
+    background-color: white;
+    overflow: hidden;
+    opacity: 0;
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    -o-transition: all 2s linear;
+    transition: all 2s linear;
+    -moz-transform: translate3d(-100px, 0px, 0px);
+    -webkit-transform: translate3d(-100px, 0px, 0px);
+    -o-transform: translate(-100px, 0px);
+    -ms-transform: translate(-100px, 0px);
+    transform: translate3d(-150px, 0px, 0px);
+}
+
+.happierBox1.in-view {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.happierBox2 {
+    border: 2px solid white;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.40);
+    border-radius: 2rem;
+    background-color: #007bff;
+    margin: 10px;
+    position: relative;
+    top: 30;
+    padding: 30px;
+    overflow: hidden;
+    color: white;
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    -o-transition: all 2s linear;
+    transition: all 2s linear;
+    -moz-transform: translate3d(-100px, 0px, 0px);
+    -webkit-transform: translate3d(-100px, 0px, 0px);
+    -o-transform: translate(-100px, 0px);
+    -ms-transform: translate(-100px, 0px);
+    transform: translate3d(0px, -100px, 0px);
+    opacity: 0;
+}
+
+.happierBox2.in-view {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 120px, 0px);
+}
+
+.happierBox3 {
+    border: 2px solid white;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.40);
+    border-radius: 2rem;
+    background-color: #fff;
+    padding: 30px;
+    margin: 10px;
+    overflow: hidden;
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    -o-transition: all 2s linear;
+    transition: all 2s linear;
+    -moz-transform: translate3d(-100px, 0px, 0px);
+    -webkit-transform: translate3d(-100px, 0px, 0px);
+    -o-transform: translate(-100px, 0px);
+    -ms-transform: translate(-100px, 0px);
+    transform: translate3d(150px, 0px, 0px);
+    opacity: 0;
+}
+
+.happierBox3.in-view {
+    opacity: 1;
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+/* -Happier div- */
+
+
+/* --Why US Div-- */
+
+.WhyUsContainer {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.WhyUsRow {
+    margin: 40px auto;
+}
+
+.WhyUsRow p {
+    margin-top: 25px;
+}
+
+
+/* --Why US Div-- */
+
+
+/* --Question Section-- */
+
+.QuestionContainer {
+    margin-top: 40px;
+    box-shadow: 0px -3px 16px rgba(248, 73, 102, 0.31);
+    padding: 45px 80px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    position: relative;
+}
+
+.QuestionContainer img {
+    width: auto;
+    height: 200px;
+}
+
+.QuestionBtn {
+    background-color: #2e3787;
+    color: #fff;
+    border-radius: 24px;
+}
+
+.QuestionBtn:hover {
+    background-color: #fff;
+    color: #2e3787;
+    border: 1px solid #2e3787;
+}
+
+.FancyBox3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #f47d31;
+    transform: translate(-50%, 0);
+}
+
+.FancyBox4 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #07006e;
+    transform: translate(50%, 0%);
+}
+
+
+/* --Question Section-- */
+
+
+/* --Subscription Form -- */
+
+.title-underlineSubscribe {
+    width: 270px;
+    height: 5px;
+    background-color: rgba(241, 117, 117, 0.657);
+    margin: 0 auto;
+}
+
+.SubscribeContainer {
+    margin-top: 40px;
+    box-shadow: 0px -3px 16px rgba(248, 73, 102, 0.31);
+    padding: 45px 80px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    position: relative;
+    transform: translate3d(0px, 90px, 0px);
+}
+
+.SubcriptionInputArea {
+    margin: 80px auto 30px auto;
+    width: 70%;
+}
+
+.SubscriptionInputBox {
+    padding: 25px;
+    border-radius: 24px;
+    border-color: #2e3787;
+}
+
+.subcribeBtn {
+    border: 1px solid #f27188;
+    border-radius: 24px;
+}
+
+.FancyBox1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #07006e;
+    transform: translate(-50%, 0);
+}
+
+.FancyBox2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: #f47d31;
+    transform: translate(50%, 100%);
+}
+
+
+/* --Subscription Form -- */
+
+
+/* -- End Learn More section-- */
+
+
+/* --footer Section-- */
+
+.footer_sec {
+    background-color: #07006e;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.footer_sec input {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footerLogoImg {
+    height: 100px;
+    width: 200px;
+}
+
+.FSocialIcon {
+    letter-spacing: 10px;
+    font-size: 2rem;
+}
+
+.Sicon:hover {
+    color: #f47d31;
+    cursor: pointer;
+}
+
+.calbackBtn {
+    background-color: #f47d31;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 24px;
+}
+
+.calbackBtn:hover {
+    background-color: #fff;
+    border: 2px solid #f47d31;
+    color: #2e3787;
+}
+
+
+/* --end footer Section-- */
+
+
+/* ==============================How It Work Page CSS Starts From Here==================== */
+
+
+/* --Top Section-- */
+
+.WorkTopContainer {
+    margin: 20px auto;
+    padding-top: 40px;
+    background-color: #F6F8F9;
+    box-shadow: 1px 4px 7px rgba(25, 101, 255, 0.61);
+    min-height: 242px;
+    position: relative;
+    overflow: hidden;
+}
+
+.WorkTopContainer h1 {
+    color: #2e3787;
+}
+
+
+/* --Top Section-- */
+
+
+/* --How It Work Section-- */
+
+.HiWmainDiv {
+    padding-bottom: 60px;
+    background: #efefef;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.HiWrowDiv {
+    padding-bottom: 90px;
+}
+
+.WImgType1Div {
+    float: right;
+    transform: translate(-70%, 0%);
+}
+
+.WImgType1 {
+    width: 300px;
+    height: 350px;
+}
+
+.WsectionHeaderType1 {
+    transform: translate(0%, 150%);
+}
+
+.WImgType2Div {
+    float: left;
+    transform: translate(70%, 0%);
+}
+
+.WImgType2 {
+    width: 250px;
+    height: 350px;
+}
+
+.WsectionHeaderType2 {
+    transform: translate(0%, 150%);
+}
+
+.HiWImg4 {
+    width: 300px;
+    height: 300px;
+}
+
+.HiWImg7 {
+    width: 370px;
+    height: 350px;
+}
+
+
+/* --How It Work Section-- */
+
+
+/* ==============================How It Work Page CSS Starts End Here==================== */
+
+
+/* ==============================About Us Page CSS Starts End Here==================== */
+
+
+/* --About Top Section-- */
+
+.AboutTopSection {
+    background: linear-gradient(to top, #FFFFFF 4%, #2634ff00 100%), url(../images/newbgji.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    opacity: 2;
+    padding-bottom: 30px;
+}
+
+.aboutTopImg {
+    width: 450px;
+    height: 450px;
+}
+
+.aboutMeanDiv {
+    padding-top: 90px;
+}
+
+.aboutMean {
+    font-size: 2rem;
+    color: white;
+    background-color: #2e3787;
+    padding: 20px 20px 20px 150px;
+    clip-path: polygon(10% 0%, 100% 1%, 100% 100%, 10% 100%, 0% 50%);
+}
+
+
+/* --About Top Section-- */
+
+
+/* --About Description Section-- */
+
+.aboutDesDiv {
+    background-color: #f6f8f9;
+}
+
+.DescriptionImg {
+    height: 400px;
+    width: 560px;
+}
+
+.abtTextType1 {
+    color: white;
+    background-color: #74ebd5;
+    padding: 40px;
+}
+
+
+/* --About Description Section-- */
+
+
+/* ==============================About Us Page CSS Starts End Here==================== */
+
+
+/* ==============================Contact Us Page CSS Starts End Here==================== */
+
+.contactTopSection {
+    background: linear-gradient(to top, #FFFFFF 4%, #2634ff00 100%), url(../images/newbgji.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    opacity: 2;
+    padding-bottom: 30px;
+}
+
+.contactTopContainer {
+    margin: 20px auto;
+    padding-top: 40px;
+    background-color: #F6F8F9;
+    box-shadow: 1px 4px 7px rgba(25, 101, 255, 0.61);
+    min-height: 242px;
+    position: relative;
+    overflow: hidden;
+}
+
+.formDIv {
+    height: auto;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.mailBoxImg {
+    height: 200px;
+    width: 200px;
+}
+
+.locationImg {
+    height: 200px;
+    width: 300px;
+}
+
+.callingImg {
+    height: 200px;
+    width: 250px;
+}
+
+
+/* ==============================Contact Us Page CSS  End Here==================== */
+
+
+/* ==============================Book Meeting Page CSS Starts Here==================== */
+
+.meetingTopImg {
+    height: 550px;
+    width: 600px;
+}
+
+.formContainer {
+    background-color: #a20a0a;
+    color: white;
+    padding: 40px;
+}
+
+
+/* --Intro Section-- */
+
+.introSection {
+    padding: 20px;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.IntroDiv {
+    margin: 10% auto;
+}
+
+.introImg {
+    width: 90%;
+}
+
+
+/* --Intro Section-- */
+
+
+/* ==============================Book Meeting Page CSS  End Here==================== */
+
+
+/* ==============================Services  Page CSS  Starts Here==================== */
+
+.InfoBoxContainer {
+    position: relative;
+    background-color: #eee;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.num_pos_1 {
+    font-size: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate3d(-213px, 20px, 0px);
+}
+
+.num_pos_2 {
+    font-size: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate3d(-113px, 121px, 0px);
+}
+
+.num_pos_3 {
+    font-size: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate3d(-103px, 253px, 0px);
+}
+
+.num_pos_4 {
+    font-size: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate3d(-200px, 355px, 0px);
+}
+
+.num_pos_5 {
+    font-size: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate3d(-345px, 365px, 0px);
+}
+
+.num_pos_6 {
+    font-size: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate3d(-448px, 268px, 0px);
+}
+
+.num_pos_7 {
+    font-size: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate3d(-450px, 132px, 0px);
+}
+
+.num_pos_8 {
+    font-size: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate3d(-353px, 22px, 0px);
+}
+
+.info_pos_1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate3d(-191px, 115px, 0px);
+    width: 360px;
+    height: 400px;
+}
+
+.info_pos_2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate3d(-56px, 272px, 0px);
+    width: 360px;
+    height: 400px;
+}
+
+.info_pos_3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate3d(-56px, 490px, 0px);
+    width: 360px;
+    height: 400px;
+}
+
+.info_pos_4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate3d(-174px, 661px, 0px);
+    width: 360px;
+    height: 400px;
+}
+
+.info_pos_5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(238px, 656px, 0px);
+    width: 360px;
+    height: 400px;
+}
+
+.info_pos_6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(97px, 498px, 0px);
+    width: 360px;
+    height: 400px;
+}
+
+.info_pos_7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(67px, 288px, 0px);
+    width: 360px;
+    height: 400px;
+}
+
+.info_pos_8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(185px, 114px, 0px);
+    width: 360px;
+    height: 400px;
+}
+
+
+/* ---------Services Mobile View---------------------- */
+
+.InfoBoxMContainer {
+    background-color: #eee;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    display: none;
+}
+
+.InfoBoxMContainer h5 {
+    font-size: 4rem;
+}
+
+.InfoBoxMContainer p {
+    font-size: 2.5rem;
+}
+
+.InfoBoxMContainer a {
+    font-size: 2.9rem;
+}
+
+
+/* ---------Services Mobile View---------------------- */
+
+
+/* ==============================Services  Page CSS  End Here==================== */

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8 ">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <meta http-equiv="X-UA-Compatible " content="ie=edge ">
+    <meta name="Description " content="Enter your description here " />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet " href="css/bootstrap.min.css ">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet " href="css/all.css ">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Style CSS -->
+    <link rel="stylesheet " href="css/style.css ">
+
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.12.5/dist/sweetalert2.all.min.js" integrity="sha256-vT8KVe2aOKsyiBKdiRX86DMsBQJnFvw3d4EEp/KRhUE=" crossorigin="anonymous"></script>
+    <!-- Sweet Alert -->
+
+    <title>Illuminating Mind</title>
+
+</head>
+
+<body>
+
+    <!-- header section -->
+    <!--nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top px-4 ">
+        <a class="navbar-brand" href="index.html"><img src="./images/logo.png" class="img-fluid nav-img" alt="Logo"></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+            <span class="toggler-icon">
+              <i style="font-size: 4rem;" class="fas fa-bars"></i>
+            </span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav mx-auto ">
+                <li class="nav-item active ">
+                    <a class="nav-link " href="index.html">Home <span class="sr-only ">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="about.html">About</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="HowItWork.html">How It Works</a>
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link " href="services.html">Services</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="nav-info-items d-none d-lg-flex ">
+                <!-- single info -->
+                <!-- single info -->
+                <div class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5 ">
+                    <a class="mb-0 text-capitalize btn nav_btn " href="BookMeeting.html">
+                        Book a meeting
+                    </a>
+                </div>
+                <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5 ">
+                    <a href="contact.html" id="contact_info" class="mb-0 text-capitalize btn nav_btn ">
+                            Consult Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--end nav bar -->
+
+    <!-- Meet Our Professional Section -->
+    <div class="container-fluid p-4">
+        <div class="row">
+            <div class="col-lg-6 justify-content-center text-right align-items-center BookMeetTopDiv">
+                <img src="./images/meetingTopImg.png" alt="Meeting" class="img-fluid meetingTopImg mx-auto">
+            </div>
+
+            <div style="padding: 0;" class="col-lg-6 text-left justify-content-center align-items-center my-auto bigFont">
+                <h1>Meet our Professionals to Receive Online Therapy</h1>
+                <p>We help you choose from a wide range of online counselling services with the help of online counselling chat and video counseling to receive psychological help to gain self-awareness. <br><br>At Illuminating Mind, we register professionals
+                    who are licensed, background verified, well-qualified, experienced and registered with licensing authorities. Your therapist will analyse your concerns and will help you by providing the best online mental health counselling services.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- Meet Our Professional Section -->
+    <!-- Book Meeting Intro -->
+    <div class="container-fluid justify-content-center  align-items-center p-4 introSection">
+        <div class="IntroDiv">
+            <h1 class="display-2">How You Can Book A Meeting ! Take a Look 👉
+
+                <a class="btn btn-lg QuestionBtn" style="font-size: 3rem;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Click
+                </a>
+            </h1>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <img src="./images/scheduleAppointment.gif" alt="Appointment" class="img-fluid introImg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Book Meeting Intro -->
+    <!-- Book A Meeting Section -->
+
+    <div class="container-fluid p-4">
+        <div class="row justify-content-center  align-items-center p-4">
+            <div class="col-lg-6 formContainer">
+                <form action="#">
+                    <div class="formDiv">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput1">Name</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Name *">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Date of Birth</label>
+                            <input type="date" class="form-control" id="formGroupExampleInput2" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputState">Choose Your Profession</label>
+                            <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Student</option>
+                        <option>Employee</option>
+                        <option>Unemployee</option>
+                        <option>Senior Citizen</option>
+                        
+                        </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputState1">Choose Your Therepy</label>
+                            <select id="inputState1" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>Mind Therepy</option>
+                        <option>Next 1 Therepy</option>
+                        <option>Next 2 Therepy</option>
+                        <option>Next 3 Therepy</option>
+                        <option>Next 4 Therepy</option>
+                        <option>Next 5 Therepy</option>
+                        </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput3">Phone</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput3" maxlength="10" size="10" placeholder="Phone *">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput4">Address</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Address *">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput5">Pin Code</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput5" maxlength="6" size="6" placeholder="Pin Code *">
+                        </div>
+
+                    </div>
+                    <button type="submit" id="BookMeeting" onclick="MeetingBooked()" class="m-4 btn btn-lg QuestionBtn ">Book Meeting</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Book A Meeting Section -->
+
+    <!-- Footer section -->
+    <section class="footer_sec ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-12 mx-auto  text-capitalize footerContainer">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h4>Illiminating Mind</h4>
+                            <ul style="list-style: none; font-weight: 600;" class="text-capitalize">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i> &nbsp; pathak market ADA <br> &nbsp; &nbsp; &nbsp; colony naini prayagraj
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-phone-alt"></i> &nbsp; 8127366214 <br> &nbsp; &nbsp; &nbsp; 6307804706
+
+                                </li>
+
+                                <li>
+                                    <i class="far fa-envelope"></i> &nbsp; digitalsahara12@gmail.com
+                                </li>
+
+                                <li class="FSocialIcon">
+                                    <i class="fab fa-facebook Sicon"></i>
+                                    <i class="fab fa-instagram-square Sicon"></i>
+                                    <i class="fab fa-linkedin Sicon"></i>
+                                    <i class="fab fa-twitter-square Sicon"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2">
+                            <h4>Quick Links</h4>
+                            <p>For Corporation</p>
+                            <p>For Counselors</p>
+                        </div>
+                        <div class="col-lg-2">
+                            <h4>Legal Stuff</h4>
+                            <p>Disclaimer</p>
+                            <p>Privacy Policy</p>
+                            <p>Terms Of Service</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5>We are here to make sure that you are always happy</h5>
+                            <input type="text" class="form-control text-success" placeholder="Enter Your Phone Number Here">
+                            <button class="btn btn-lg mt-4 calbackBtn">Request Callback</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <dov class="col-lg-3 centerAln">
+                            <img class="footerLogoImg mt-4" src="./images/footerLogo.png" alt="F-logo">
+                        </dov>
+                        <dov class="col-lg-9">
+                            <h5 class="text-center mt-4">If you are in a life-threatening situation – DO NOT use this site. Use these resources to get immediate help</h5>
+                            <h5 class="text-center"> © Illuminating Mind. All rights reserved.</h5>
+                        </dov>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Footer section -->
+
+
+    <!-- Jquery -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome JS -->
+    <script src="js/all.js"></script>
+    <!-- Main JS -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
